@@ -13,6 +13,8 @@
 		74D4F97021F0C47C007F4285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D4F96F21F0C47C007F4285 /* Assets.xcassets */; };
 		74D4F97321F0C47C007F4285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D4F97121F0C47C007F4285 /* LaunchScreen.storyboard */; };
 		74D4F97621F0C47C007F4285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F97521F0C47C007F4285 /* main.m */; };
+		74D4F97D21F0C4C6007F4285 /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74D4F97C21F0C4C6007F4285 /* 0.jpeg */; };
+		74D4F98021F0C524007F4285 /* DDPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D4F97F21F0C524007F4285 /* DDPopUpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		74D4F97221F0C47C007F4285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D4F97421F0C47C007F4285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D4F97521F0C47C007F4285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74D4F97C21F0C4C6007F4285 /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		74D4F97E21F0C524007F4285 /* DDPopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPopUpView.h; sourceTree = "<group>"; };
+		74D4F97F21F0C524007F4285 /* DDPopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPopUpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		74D4F96521F0C47B007F4285 /* DDPopUpView */ = {
 			isa = PBXGroup;
 			children = (
+				74D4F97C21F0C4C6007F4285 /* 0.jpeg */,
 				74D4F96621F0C47B007F4285 /* AppDelegate.h */,
 				74D4F96721F0C47B007F4285 /* AppDelegate.m */,
 				74D4F96921F0C47B007F4285 /* ViewController.h */,
 				74D4F96A21F0C47B007F4285 /* ViewController.m */,
+				74D4F97E21F0C524007F4285 /* DDPopUpView.h */,
+				74D4F97F21F0C524007F4285 /* DDPopUpView.m */,
 				74D4F96C21F0C47B007F4285 /* Main.storyboard */,
 				74D4F96F21F0C47C007F4285 /* Assets.xcassets */,
 				74D4F97121F0C47C007F4285 /* LaunchScreen.storyboard */,
@@ -130,6 +138,7 @@
 			files = (
 				74D4F97321F0C47C007F4285 /* LaunchScreen.storyboard in Resources */,
 				74D4F97021F0C47C007F4285 /* Assets.xcassets in Resources */,
+				74D4F97D21F0C4C6007F4285 /* 0.jpeg in Resources */,
 				74D4F96E21F0C47B007F4285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +153,7 @@
 				74D4F96B21F0C47B007F4285 /* ViewController.m in Sources */,
 				74D4F97621F0C47C007F4285 /* main.m in Sources */,
 				74D4F96821F0C47B007F4285 /* AppDelegate.m in Sources */,
+				74D4F98021F0C524007F4285 /* DDPopUpView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
