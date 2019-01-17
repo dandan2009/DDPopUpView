@@ -26,22 +26,11 @@ const static NSInteger KSubBtnTag                       = 1001;
 
 @end
 
-
-
 @implementation DDPopUpView
 
 CGFloat buttonHeight = 0;
 CGFloat buttonSpacerHeight = 0;
 UIEdgeInsets contentInsets;
-
-//- (id)initWithParentView: (UIView *)_parentView{
-//    self = [self init];
-//    if (_parentView) {
-//        self.frame = _parentView.frame;
-//        self.parentView = _parentView;
-//    }
-//    return self;
-//}
 
 - (id)init{
     self = [super init];
@@ -234,16 +223,16 @@ UIEdgeInsets contentInsets;
     [button.titleLabel setFont:[UIFont systemFontOfSize:self.btnTextSize]];
     button.titleLabel.textAlignment = NSTextAlignmentCenter;
     if (index == KMainBtnTag) {
-        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xFF8F00) toColor:TCUIColorFromRGB(0xFF5500)] forState:UIControlStateNormal];
-        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xFF7F00) toColor:TCUIColorFromRGB(0xFF3300)] forState:UIControlStateHighlighted];
+        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xFF4F00) toColor:TCUIColorFromRGB(0xF2a500)] forState:UIControlStateNormal];
+        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xFF8F00) toColor:TCUIColorFromRGB(0xFaa300)] forState:UIControlStateHighlighted];
         
         [button setTitleColor:self.mainBtnTextColor forState:UIControlStateNormal];
         [button setTitleColor:self.mainBtnTextColor forState:UIControlStateHighlighted];
         [button setTitle:self.mainBtnText forState:UIControlStateNormal];
     }
     else{
-        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xF5F5F5) toColor:TCUIColorFromRGB(0xF5F5F5)] forState:UIControlStateNormal];
-        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xF4F4F4) toColor:TCUIColorFromRGB(0xF4F4F4)] forState:UIControlStateHighlighted];
+        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xF5F5F5) toColor:TCUIColorFromRGB(0x45F5F5)] forState:UIControlStateNormal];
+        [button setBackgroundImage:[self getImageWithFrame:button.bounds frameColor:TCUIColorFromRGB(0xF4F4F4) toColor:TCUIColorFromRGB(0x84F4F4)] forState:UIControlStateHighlighted];
         
         [button setTitleColor:self.subBtnTextColor forState:UIControlStateNormal];
         [button setTitleColor:self.subBtnTextColor forState:UIControlStateHighlighted];
