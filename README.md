@@ -4,5 +4,5 @@
 Pop up view, support text, image, textImage  and custom view. Support button background color gradient.
 
 
-![](/img/demo.gif)
+![](./demo.gif)
 
